@@ -1,0 +1,6 @@
+framework module Pods_grooveAppSwift {
+  umbrella header "Pods-grooveAppSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

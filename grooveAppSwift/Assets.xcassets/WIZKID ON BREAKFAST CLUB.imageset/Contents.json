@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "WIZKID ON BREAKFAST CLUB.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "WIZKID ON BREAKFAST CLUB@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "WIZKID ON BREAKFAST CLUB@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

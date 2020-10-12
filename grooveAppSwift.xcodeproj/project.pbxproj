@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5623BC662F1B57C51DFB4587 /* Pods_grooveAppSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD56FF54BCB0A47E65FA387 /* Pods_grooveAppSwift.framework */; };
+		B49768852531BF6D00F1736B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49768842531BF6D00F1736B /* AppDelegate.swift */; };
+		B49768872531BF6D00F1736B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49768862531BF6D00F1736B /* SceneDelegate.swift */; };
+		B49768892531BF6D00F1736B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49768882531BF6D00F1736B /* ContentView.swift */; };
+		B497688B2531BF7100F1736B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B497688A2531BF7100F1736B /* Assets.xcassets */; };
+		B497688E2531BF7100F1736B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B497688D2531BF7100F1736B /* Preview Assets.xcassets */; };
+		B49768912531BF7100F1736B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B497688F2531BF7100F1736B /* LaunchScreen.storyboard */; };
+		B497689C2531BF7100F1736B /* grooveAppSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B497689B2531BF7100F1736B /* grooveAppSwiftTests.swift */; };
+		B49768A72531BF7100F1736B /* grooveAppSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49768A62531BF7100F1736B /* grooveAppSwiftUITests.swift */; };
+		B49768B52531CB0C00F1736B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49768B42531CB0C00F1736B /* Constants.swift */; };
+		B49768B72531CC2100F1736B /* myUduxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49768B62531CC2100F1736B /* myUduxView.swift */; };
+		B49768B92531CC3100F1736B /* homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49768B82531CC3100F1736B /* homeView.swift */; };
+		B49768BB2531CC4100F1736B /* discoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49768BA2531CC4100F1736B /* discoverView.swift */; };
+		B49768BD2531CC6000F1736B /* connectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49768BC2531CC6000F1736B /* connectView.swift */; };
+		B49768BF2531CC6F00F1736B /* searchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49768BE2531CC6F00F1736B /* searchView.swift */; };
+		D5C5E850EABDE81C3E7AAFB6 /* Pods_grooveAppSwift_grooveAppSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B42A35175C06A7D524783CE1 /* Pods_grooveAppSwift_grooveAppSwiftUITests.framework */; };
+		F2021573CFBB17825D67704C /* Pods_grooveAppSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00658F6784C6E75C1FEC11A0 /* Pods_grooveAppSwiftTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B49768982531BF7100F1736B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B49768792531BF6D00F1736B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B49768802531BF6D00F1736B;
+			remoteInfo = grooveAppSwift;
+		};
+		B49768A32531BF7100F1736B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B49768792531BF6D00F1736B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B49768802531BF6D00F1736B;
+			remoteInfo = grooveAppSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00658F6784C6E75C1FEC11A0 /* Pods_grooveAppSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_grooveAppSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		026A46D56C153487817216AC /* Pods-grooveAppSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grooveAppSwift.debug.xcconfig"; path = "Target Support Files/Pods-grooveAppSwift/Pods-grooveAppSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		08E5954771C2634E0592AB53 /* Pods-grooveAppSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grooveAppSwiftTests.release.xcconfig"; path = "Target Support Files/Pods-grooveAppSwiftTests/Pods-grooveAppSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		0B919FF7FE260BFE4356AA97 /* Pods-grooveAppSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grooveAppSwift.release.xcconfig"; path = "Target Support Files/Pods-grooveAppSwift/Pods-grooveAppSwift.release.xcconfig"; sourceTree = "<group>"; };
+		1BA08E4CA3FDE2A33A3F4F82 /* Pods-grooveAppSwift-grooveAppSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grooveAppSwift-grooveAppSwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-grooveAppSwift-grooveAppSwiftUITests/Pods-grooveAppSwift-grooveAppSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B42A35175C06A7D524783CE1 /* Pods_grooveAppSwift_grooveAppSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_grooveAppSwift_grooveAppSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B49768812531BF6D00F1736B /* grooveAppSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = grooveAppSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B49768842531BF6D00F1736B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B49768862531BF6D00F1736B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B49768882531BF6D00F1736B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B497688A2531BF7100F1736B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B497688D2531BF7100F1736B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B49768902531BF7100F1736B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B49768922531BF7100F1736B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B49768972531BF7100F1736B /* grooveAppSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = grooveAppSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B497689B2531BF7100F1736B /* grooveAppSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grooveAppSwiftTests.swift; sourceTree = "<group>"; };
+		B497689D2531BF7100F1736B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B49768A22531BF7100F1736B /* grooveAppSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = grooveAppSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B49768A62531BF7100F1736B /* grooveAppSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grooveAppSwiftUITests.swift; sourceTree = "<group>"; };
+		B49768A82531BF7100F1736B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B49768B42531CB0C00F1736B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B49768B62531CC2100F1736B /* myUduxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myUduxView.swift; sourceTree = "<group>"; };
+		B49768B82531CC3100F1736B /* homeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeView.swift; sourceTree = "<group>"; };
+		B49768BA2531CC4100F1736B /* discoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = discoverView.swift; sourceTree = "<group>"; };
+		B49768BC2531CC6000F1736B /* connectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connectView.swift; sourceTree = "<group>"; };
+		B49768BE2531CC6F00F1736B /* searchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchView.swift; sourceTree = "<group>"; };
+		B6883296D7813BA8EBDBF652 /* Pods-grooveAppSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grooveAppSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-grooveAppSwiftTests/Pods-grooveAppSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2B24919C78515A0EDBC1296 /* Pods-grooveAppSwift-grooveAppSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grooveAppSwift-grooveAppSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-grooveAppSwift-grooveAppSwiftUITests/Pods-grooveAppSwift-grooveAppSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FBD56FF54BCB0A47E65FA387 /* Pods_grooveAppSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_grooveAppSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B497687E2531BF6D00F1736B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5623BC662F1B57C51DFB4587 /* Pods_grooveAppSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49768942531BF7100F1736B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2021573CFBB17825D67704C /* Pods_grooveAppSwiftTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B497689F2531BF7100F1736B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C5E850EABDE81C3E7AAFB6 /* Pods_grooveAppSwift_grooveAppSwiftUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B91132B0344351700517FFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBD56FF54BCB0A47E65FA387 /* Pods_grooveAppSwift.framework */,
+				B42A35175C06A7D524783CE1 /* Pods_grooveAppSwift_grooveAppSwiftUITests.framework */,
+				00658F6784C6E75C1FEC11A0 /* Pods_grooveAppSwiftTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B49768782531BF6D00F1736B = {
+			isa = PBXGroup;
+			children = (
+				B49768832531BF6D00F1736B /* grooveAppSwift */,
+				B497689A2531BF7100F1736B /* grooveAppSwiftTests */,
+				B49768A52531BF7100F1736B /* grooveAppSwiftUITests */,
+				B49768822531BF6D00F1736B /* Products */,
+				CF0F8E128CF078381CD76472 /* Pods */,
+				2B91132B0344351700517FFE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B49768822531BF6D00F1736B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B49768812531BF6D00F1736B /* grooveAppSwift.app */,
+				B49768972531BF7100F1736B /* grooveAppSwiftTests.xctest */,
+				B49768A22531BF7100F1736B /* grooveAppSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B49768832531BF6D00F1736B /* grooveAppSwift */ = {
+			isa = PBXGroup;
+			children = (
+				B49768842531BF6D00F1736B /* AppDelegate.swift */,
+				B49768862531BF6D00F1736B /* SceneDelegate.swift */,
+				B49768882531BF6D00F1736B /* ContentView.swift */,
+				B497688A2531BF7100F1736B /* Assets.xcassets */,
+				B497688F2531BF7100F1736B /* LaunchScreen.storyboard */,
+				B49768922531BF7100F1736B /* Info.plist */,
+				B497688C2531BF7100F1736B /* Preview Content */,
+				B49768B42531CB0C00F1736B /* Constants.swift */,
+				B4A7006D2534237900200B9D /* Views */,
+			);
+			path = grooveAppSwift;
+			sourceTree = "<group>";
+		};
+		B497688C2531BF7100F1736B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B497688D2531BF7100F1736B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B497689A2531BF7100F1736B /* grooveAppSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				B497689B2531BF7100F1736B /* grooveAppSwiftTests.swift */,
+				B497689D2531BF7100F1736B /* Info.plist */,
+			);
+			path = grooveAppSwiftTests;
+			sourceTree = "<group>";
+		};
+		B49768A52531BF7100F1736B /* grooveAppSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B49768A62531BF7100F1736B /* grooveAppSwiftUITests.swift */,
+				B49768A82531BF7100F1736B /* Info.plist */,
+			);
+			path = grooveAppSwiftUITests;
+			sourceTree = "<group>";
+		};
+		B4A7006D2534237900200B9D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B49768B62531CC2100F1736B /* myUduxView.swift */,
+				B49768B82531CC3100F1736B /* homeView.swift */,
+				B49768BA2531CC4100F1736B /* discoverView.swift */,
+				B49768BC2531CC6000F1736B /* connectView.swift */,
+				B49768BE2531CC6F00F1736B /* searchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CF0F8E128CF078381CD76472 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				026A46D56C153487817216AC /* Pods-grooveAppSwift.debug.xcconfig */,
+				0B919FF7FE260BFE4356AA97 /* Pods-grooveAppSwift.release.xcconfig */,
+				1BA08E4CA3FDE2A33A3F4F82 /* Pods-grooveAppSwift-grooveAppSwiftUITests.debug.xcconfig */,
+				F2B24919C78515A0EDBC1296 /* Pods-grooveAppSwift-grooveAppSwiftUITests.release.xcconfig */,
+				B6883296D7813BA8EBDBF652 /* Pods-grooveAppSwiftTests.debug.xcconfig */,
+				08E5954771C2634E0592AB53 /* Pods-grooveAppSwiftTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B49768802531BF6D00F1736B /* grooveAppSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B49768AB2531BF7100F1736B /* Build configuration list for PBXNativeTarget "grooveAppSwift" */;
+			buildPhases = (
+				7FABCE7997AB08CE22416C30 /* [CP] Check Pods Manifest.lock */,
+				B497687D2531BF6D00F1736B /* Sources */,
+				B497687E2531BF6D00F1736B /* Frameworks */,
+				B497687F2531BF6D00F1736B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = grooveAppSwift;
+			productName = grooveAppSwift;
+			productReference = B49768812531BF6D00F1736B /* grooveAppSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B49768962531BF7100F1736B /* grooveAppSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B49768AE2531BF7100F1736B /* Build configuration list for PBXNativeTarget "grooveAppSwiftTests" */;
+			buildPhases = (
+				F83B03D88492EDDB60E607C1 /* [CP] Check Pods Manifest.lock */,
+				B49768932531BF7100F1736B /* Sources */,
+				B49768942531BF7100F1736B /* Frameworks */,
+				B49768952531BF7100F1736B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B49768992531BF7100F1736B /* PBXTargetDependency */,
+			);
+			name = grooveAppSwiftTests;
+			productName = grooveAppSwiftTests;
+			productReference = B49768972531BF7100F1736B /* grooveAppSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B49768A12531BF7100F1736B /* grooveAppSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B49768B12531BF7100F1736B /* Build configuration list for PBXNativeTarget "grooveAppSwiftUITests" */;
+			buildPhases = (
+				EC5AE6C926DB570B5F37ED6C /* [CP] Check Pods Manifest.lock */,
+				B497689E2531BF7100F1736B /* Sources */,
+				B497689F2531BF7100F1736B /* Frameworks */,
+				B49768A02531BF7100F1736B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B49768A42531BF7100F1736B /* PBXTargetDependency */,
+			);
+			name = grooveAppSwiftUITests;
+			productName = grooveAppSwiftUITests;
+			productReference = B49768A22531BF7100F1736B /* grooveAppSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B49768792531BF6D00F1736B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Tolulope Alawusa";
+				TargetAttributes = {
+					B49768802531BF6D00F1736B = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					B49768962531BF7100F1736B = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = B49768802531BF6D00F1736B;
+					};
+					B49768A12531BF7100F1736B = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = B49768802531BF6D00F1736B;
+					};
+				};
+			};
+			buildConfigurationList = B497687C2531BF6D00F1736B /* Build configuration list for PBXProject "grooveAppSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B49768782531BF6D00F1736B;
+			productRefGroup = B49768822531BF6D00F1736B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B49768802531BF6D00F1736B /* grooveAppSwift */,
+				B49768962531BF7100F1736B /* grooveAppSwiftTests */,
+				B49768A12531BF7100F1736B /* grooveAppSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B497687F2531BF6D00F1736B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49768912531BF7100F1736B /* LaunchScreen.storyboard in Resources */,
+				B497688E2531BF7100F1736B /* Preview Assets.xcassets in Resources */,
+				B497688B2531BF7100F1736B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49768952531BF7100F1736B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49768A02531BF7100F1736B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FABCE7997AB08CE22416C30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-grooveAppSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC5AE6C926DB570B5F37ED6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-grooveAppSwift-grooveAppSwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F83B03D88492EDDB60E607C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-grooveAppSwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B497687D2531BF6D00F1736B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49768852531BF6D00F1736B /* AppDelegate.swift in Sources */,
+				B49768BD2531CC6000F1736B /* connectView.swift in Sources */,
+				B49768872531BF6D00F1736B /* SceneDelegate.swift in Sources */,
+				B49768B72531CC2100F1736B /* myUduxView.swift in Sources */,
+				B49768892531BF6D00F1736B /* ContentView.swift in Sources */,
+				B49768BF2531CC6F00F1736B /* searchView.swift in Sources */,
+				B49768B52531CB0C00F1736B /* Constants.swift in Sources */,
+				B49768B92531CC3100F1736B /* homeView.swift in Sources */,
+				B49768BB2531CC4100F1736B /* discoverView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49768932531BF7100F1736B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B497689C2531BF7100F1736B /* grooveAppSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B497689E2531BF7100F1736B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49768A72531BF7100F1736B /* grooveAppSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B49768992531BF7100F1736B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B49768802531BF6D00F1736B /* grooveAppSwift */;
+			targetProxy = B49768982531BF7100F1736B /* PBXContainerItemProxy */;
+		};
+		B49768A42531BF7100F1736B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B49768802531BF6D00F1736B /* grooveAppSwift */;
+			targetProxy = B49768A32531BF7100F1736B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B497688F2531BF7100F1736B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B49768902531BF7100F1736B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B49768A92531BF7100F1736B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B49768AA2531BF7100F1736B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B49768AC2531BF7100F1736B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 026A46D56C153487817216AC /* Pods-grooveAppSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"grooveAppSwift/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = grooveAppSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tolu.grooveAppSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B49768AD2531BF7100F1736B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B919FF7FE260BFE4356AA97 /* Pods-grooveAppSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"grooveAppSwift/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = grooveAppSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tolu.grooveAppSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B49768AF2531BF7100F1736B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6883296D7813BA8EBDBF652 /* Pods-grooveAppSwiftTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = grooveAppSwiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tolu.grooveAppSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/grooveAppSwift.app/grooveAppSwift";
+			};
+			name = Debug;
+		};
+		B49768B02531BF7100F1736B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08E5954771C2634E0592AB53 /* Pods-grooveAppSwiftTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = grooveAppSwiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tolu.grooveAppSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/grooveAppSwift.app/grooveAppSwift";
+			};
+			name = Release;
+		};
+		B49768B22531BF7100F1736B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BA08E4CA3FDE2A33A3F4F82 /* Pods-grooveAppSwift-grooveAppSwiftUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = grooveAppSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tolu.grooveAppSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = grooveAppSwift;
+			};
+			name = Debug;
+		};
+		B49768B32531BF7100F1736B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2B24919C78515A0EDBC1296 /* Pods-grooveAppSwift-grooveAppSwiftUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = grooveAppSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tolu.grooveAppSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = grooveAppSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B497687C2531BF6D00F1736B /* Build configuration list for PBXProject "grooveAppSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B49768A92531BF7100F1736B /* Debug */,
+				B49768AA2531BF7100F1736B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B49768AB2531BF7100F1736B /* Build configuration list for PBXNativeTarget "grooveAppSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B49768AC2531BF7100F1736B /* Debug */,
+				B49768AD2531BF7100F1736B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B49768AE2531BF7100F1736B /* Build configuration list for PBXNativeTarget "grooveAppSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B49768AF2531BF7100F1736B /* Debug */,
+				B49768B02531BF7100F1736B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B49768B12531BF7100F1736B /* Build configuration list for PBXNativeTarget "grooveAppSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B49768B22531BF7100F1736B /* Debug */,
+				B49768B32531BF7100F1736B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B49768792531BF6D00F1736B /* Project object */;
+}
